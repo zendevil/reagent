@@ -22,7 +22,7 @@ Reagent provides an implementation of atom that you can create with `reagent/ato
 			:on-click #(swap! click-count inc)}]])
 ```
 
-### Mutating a ratom
+### Mutating an atom
 
 You manipulate using the standard `reset!` and `swap!` functions.
 
